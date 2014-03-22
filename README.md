@@ -1,7 +1,7 @@
 js-module-template
 ===============
 
-my default js template for fast coding a js module
+my default template for fast coding a js module
 
 
 ## scripts:
