@@ -1,0 +1,25 @@
+{
+    "name": "module",
+    "version": "0.1.0",
+    "description": "js module template",
+    "main": "src/module.js",
+    "scripts": {
+        "build-debug": "browserify src/module.js -d --s out > dist/module.js",
+        "build-min": "browserify src/module.js --s out | uglifyjs -c > dist/module.min.js",
+        "build": "npm run build-debug && npm run build-min",
+        "watch": "watchify src/module.js -d --s out -o dist/module.js -v"
+    },
+    "keywords": [
+        "module",
+        "setup",
+        "init",
+        "boilerplate"
+    ],
+    "author": "Sönke Kluth <soenke.kluth@gmail.com> (http://soenkekluth.com/)",
+    "license": "MIT",
+    "devDependencies": {
+        "uglify-js": "^2.4.13",
+        "browserify": "^3.33.0",
+        "watchify": "^0.6.3"
+    }
+}
