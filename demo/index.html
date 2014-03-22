@@ -17,17 +17,32 @@
         margin: 0;
         padding:0;
     }
+    main {
+        display: block;
+        text-align: center;
+    }
     </style>
 
 </head>
 
 <body>
 
+    <main>
+        <h1>JS Module Template</h1>
+        <p>my default template for fast coding a js module</p>
+        <output name="out"></output>
+    </main>
 
     <script src="../dist/module.js"></script>
     <script>
+
     var module = new Module();
-    console.log('running Module Version '+module.version);
+    var str = 'running Module Version ' + module.version;
+    var out = document.getElementsByName('out')[0];
+
+    out.innerText = str;
+    console.log(str);
+
     </script>
 
 </body>
