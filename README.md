@@ -5,10 +5,10 @@ my default template for fast coding a js module
 
 
 ## scripts:
-npm run-script watch
+npm run watch
 
-npm run-script build-debug
+npm run build-debug
 
-npm run-script build-min
+npm run build-min
 
-npm run-script build
+npm run build
