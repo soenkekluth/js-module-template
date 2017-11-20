@@ -18,8 +18,8 @@
     "author": "Sönke Kluth <soenke.kluth@gmail.com> (http://soenkekluth.com/)",
     "license": "MIT",
     "devDependencies": {
-        "uglify-js": "^2.4.13",
-        "browserify": "^3.33.0",
-        "watchify": "^0.6.3"
+        "uglify-js": "^3.1.10",
+        "browserify": "^14.5.0",
+        "watchify": "^3.9.0"
     }
 }
